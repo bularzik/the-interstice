@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build:packs": "node tools/js/compile.mjs",
+    "build:packs": "python3 tools/build.py && node tools/js/compile.mjs",
     "validate": "node tools/js/validate.mjs",
     "package": "npm run build:packs && npm run validate && node tools/js/package.mjs"
   },
