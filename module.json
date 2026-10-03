@@ -1,0 +1,78 @@
+{
+  "id": "the-interstice",
+  "title": "The Interstice: A Liminal Descent",
+  "description": "<p>A Backrooms-inspired liminal-horror adventure for D&amp;D 5e (2024 rules), levels 5\u20138. Includes four scenes, ten actors, journals, handouts, roll tables and original ambient audio.</p>",
+  "version": "1.1.0",
+  "url": "https://github.com/OWNER/the-interstice",
+  "manifest": "https://github.com/OWNER/the-interstice/releases/latest/download/module.json",
+  "download": "https://github.com/OWNER/the-interstice/releases/download/v1.1.0/module.zip",
+  "authors": [
+    {
+      "name": "Generated with Claude"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.0.0"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "manifest": "https://github.com/ironmonk108/monks-active-tiles/releases/latest/download/module.json",
+        "compatibility": {
+          "minimum": "14.01"
+        },
+        "reason": "Scene automation: teleports, looping rooms, lights-out events, scene transitions and the Guest Pass check."
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "the-interstice",
+      "label": "The Interstice (Adventure)",
+      "path": "packs/the-interstice",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "interstice-bestiary",
+      "label": "The Interstice: Bestiary",
+      "path": "packs/interstice-bestiary",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "The Interstice",
+      "sorting": "m",
+      "color": "#7a6a2a",
+      "packs": [
+        "the-interstice",
+        "interstice-bestiary"
+      ]
+    }
+  ],
+  "languages": [],
+  "esmodules": [],
+  "styles": []
+}

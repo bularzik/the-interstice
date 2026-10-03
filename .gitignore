@@ -1,0 +1,6 @@
+node_modules/
+packs/
+dist/
+.validate/
+__pycache__/
+.DS_Store
