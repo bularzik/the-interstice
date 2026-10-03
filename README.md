@@ -42,6 +42,10 @@ npm run package       # build + validate + dist/module.zip
 
 `src/packs/` holds the compendium content as JSON. `packs/` is generated and not committed. The Python scripts in `tools/` regenerate the maps, audio, art and JSON from scratch (`pip install numpy scipy pillow`, plus `ffmpeg`), run from the repo root: `python3 tools/audio.py`, `tools/maps.py`, `tools/tokens.py`, `tools/tile_art.py`, then `tools/build.py`.
 
+## Publishing for the first time
+
+Run `./publish.sh`. It logs you into GitHub through the GitHub CLI, points every URL at your account, creates the public repo, pushes, publishes release `v1.1.0`, waits for the build, and prints the manifest URL.
+
 ## Releasing
 
 Every push to `main` runs **Validate**. To publish a new version, create a GitHub release with a tag like `v1.2.0`. The **Release Module** workflow compiles the packs, validates them, stamps `module.json` with the version and URLs, and attaches `module.json` and `module.zip` to the release. Foundry picks up the update through the manifest URL above.
