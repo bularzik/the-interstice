@@ -195,9 +195,9 @@ manifest = {
     "id": "the-interstice", "title": "The Interstice: A Liminal Descent",
     "description": "<p>A Backrooms-inspired liminal-horror adventure for D&amp;D 5e (2024 rules), levels 5–8. Includes four scenes, ten actors, journals, handouts, roll tables and original ambient audio.</p>",
     "version": "1.1.0",
-    "url": "https://github.com/OWNER/the-interstice",
-    "manifest": "https://github.com/OWNER/the-interstice/releases/latest/download/module.json",
-    "download": "https://github.com/OWNER/the-interstice/releases/download/v1.1.0/module.zip",
+    "url": "https://github.com/bularzik/the-interstice",
+    "manifest": "https://github.com/bularzik/the-interstice/releases/latest/download/module.json",
+    "download": "https://github.com/bularzik/the-interstice/releases/download/v1.1.0/module.zip",
     "authors": [{"name": "Generated with Claude"}],
     "compatibility": {"minimum": "14", "verified": "14"},
     "relationships": {

@@ -10,7 +10,7 @@ For **Foundry VTT v14** with **dnd5e 5.x/6.x**.
 In Foundry's Setup screen: **Add-on Modules → Install Module**, paste this into **Manifest URL**, and click **Install**:
 
 ```
-https://github.com/OWNER/the-interstice/releases/latest/download/module.json
+https://github.com/bularzik/the-interstice/releases/latest/download/module.json
 ```
 
 Then, in your dnd5e world:
